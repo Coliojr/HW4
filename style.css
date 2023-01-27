@@ -1,0 +1,7 @@
+body {
+    background-color: white;
+}
+
+input[type=number] {
+    margin: 3px;
+}
