@@ -1,7 +1,26 @@
 body {
     background-color: white;
+    padding-left: 40px;
+}
+
+input[type=text]{
+    width: 200px;
 }
 
 input[type=number] {
     margin: 3px;
+    width: 200px;
+}
+
+label {
+    font-size: 24px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+button {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }

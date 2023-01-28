@@ -9,20 +9,32 @@
 </head>
 <body>
     <h1>Calorie Burner</h1>
-    <div>
-        <br />
-        <input type="number" value="" id="textbox1" />
-        <br />
-        <input type="number" value="" id="textbox2" />
-        <br />
-        <input type="number" value="" id="textbox3" />
-        <br />
+    <div id="calorieRadio">
+        <br>
+        <input type="radio" value="Sit Ups" id="situps" name="exercise" />
+        <label for="situps">Sit Ups</label>
+        <br>
+        <input type="radio" value="Push Ups" id="pushups" name="exercise" />
+        <label for="pushups">Push Ups</label>
+        <br>
+        <input type="radio" value="Jump Rope" id="jumprope" name="exercise" />
+        <label for="jumprope">Jump Rope</label>    
     </div>
-
-    <br />
-    <button type="button" id="button1" onclick="button1Function()">Square</button>
-    <button type="button" id="button2">Cube</button>
-    <button type="button" id="button3">ToTheFourth</button>
+    <br>
+    <div id="minuets">
+        <h2>How many minutes</h2>
+        <input type="number" value ="" id="minutes" name="minutes" autocomplete="off">
+        <br>
+        <button type="button" id="add">Add</button>
+        <br><br>
+        <button type="button" id="mostburned">Most Burned</button>
+        <br>
+        <input type="text" id="burned" name="burned" autocomplete="off">
+    </div>
+    <br><br>
+    <div id="showall">
+        <button type="button">Show All</button>
+    </div>
 
     <script src="main.js"></script>
 </body>
